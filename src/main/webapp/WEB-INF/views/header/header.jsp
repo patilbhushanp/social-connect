@@ -8,7 +8,7 @@
 		<title>X-Connect | Social Connect</title>
 		<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 		<link href="css/font-awesome/font-awesome.css" rel="stylesheet">
-		<link href="css/connect-style.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="wrapper">
