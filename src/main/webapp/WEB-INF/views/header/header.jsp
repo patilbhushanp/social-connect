@@ -1,4 +1,4 @@
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+	<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,7 +12,6 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<jsp:include page="../navigation/navigation.jsp"></jsp:include>
 			<div class="row header-color">
 				<div class="col-lg-9 pull-left">
 					<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
@@ -137,3 +136,5 @@
 					</ul>			
 				</div>
 			</div>
+			<jsp:include page="../navigation/navigation.jsp"></jsp:include>
+			

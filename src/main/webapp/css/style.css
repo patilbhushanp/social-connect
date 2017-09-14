@@ -1,3 +1,9 @@
+.nav-header {
+    padding: 15px 25px;
+    background-color: #2f4050;
+    background-image: url(../img/header-profile.png);
+}
+
 body {
     font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #2f4050;
@@ -19,7 +25,7 @@ body {
     transition: all 0.4s;
 }
 
-@media (min-width: 768px)
+@media (min-height: 768px)
 .navbar-static-side {
     z-index: 2001;
     position: absolute;
@@ -80,7 +86,7 @@ ul.nav-second-level {
     display: block;
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-    width: 100%;
+    width: 80%;
 }
 
 .form-control, .form-control:focus, .has-error .form-control:focus, .has-success .form-control:focus, .has-warning .form-control:focus, .navbar-collapse, .navbar-form, .navbar-form-custom .form-control:focus, .navbar-form-custom .form-control:hover, .open .btn.dropdown-toggle, .panel, .popover, .progress, .progress-bar {
@@ -174,4 +180,80 @@ div {
     position: relative;
     display: block;
     padding: 10px 15px;
+}
+
+@media (min-width: 768px)
+#page-wrapper {
+    position: inherit;
+    margin: 0 0 0 220px;
+    min-height: 100vh;
+    position: inherit;
+    margin: 0 0 0 240px;
+    min-height: 2002px;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    position: relative !important;
+    min-height: auto;
+}
+
+.gray-bg, .bg-muted {
+    background-color: #f3f3f4;
+}
+
+.navbar-fixed-top,
+.navbar-static-top {
+  background: #f3f3f4;
+}
+
+.white-bg .navbar-fixed-top,
+.white-bg .navbar-static-top {
+  background: #fff;
+}
+
+/* For handle diferent bg color in MVC version */
+.Dashboard_2 .navbar.navbar-static-top,
+.Dashboard_3 .navbar.navbar-static-top,
+.Dashboard_4_1 .navbar.navbar-static-top,
+.ComposeEmail .navbar.navbar-static-top,
+.EmailView .navbar.navbar-static-top,
+.Inbox .navbar.navbar-static-top,
+.Metrics .navbar.navbar-static-top,
+.Dashboard_5 .navbar.navbar-static-top {
+  background: #fff;
+}
+
+.light-navbar .navbar.navbar-static-top {
+  background-color: #ffffff;
+}
+
+body.mini-navbar.fixed-sidebar .profile-element, .block {
+    display: block !important;
+}
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
+
+.nav-header .text-muted {
+    color: #8095a8;
+}
+
+.text-muted {
+    color: #888888;
+}
+
+.block {
+    display: block;
 }
