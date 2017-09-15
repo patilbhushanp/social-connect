@@ -1,207 +1,12 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>X-Connect | Social Connect</title>
-		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-awesome/font-awesome.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-	 	<link href="css/metismenu/metisMenu.min.css" rel="stylesheet">
-
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  	<script src="js/bootstrap/bootstrap.min.js"></script>
-	  	<script src="js/metismenu/metisMenu.min.js"></script>
-
-
-	</head>
+<jsp:include page="header/index.jsp"></jsp:include>
 	<body>
 		<div class="row">
 			<div class="col-lg-2">
-				<div class="sidebar-collapse">
-                <ul class="nav metismenu" style="background-color: #293846;" id="side-menu">
-                    <li class="nav-header">
-                        <div class="dropdown profile-element">
-                        	<span>
-                            	<img alt="image" class="img-circle" src="img/my-profile.jpg">
-                            </span>
-							<a data-toggle="dropdown" class="" href="#" aria-expanded="false">
-								<span class="clear">
-									<span class="block m-t-xs"> <strong class="font-bold">Bhushan P Patil</strong>
-									</span>
- 									<span class="text-muted text-xs block">Technical Lead - Java <b class="caret"></b>
- 									</span>
-  								</span>
-							</a>
-                           	<ul class="dropdown-menu">
-                               <li><a href="profile.html">Profile</a></li>
-                               <li><a href="contacts.html">Contacts</a></li>
-                               <li><a href="mailbox.html">Mailbox</a></li>
-                               <li class="divider"></li>
-                               <li><a href="login.html">Logout</a></li>
-                           	</ul>
-                        </div>
-                        <div class="logo-element">
-                            Server Space, Pune, IND
-                        </div>
-                    </li>
-                    <li class="active">
-                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level collapse in">
-                            <li class="active"><a href="index.html">Technical Post</a></li>
-                            <li><a href="dashboard_2.html">Event Post</a></li>
-                            <li><a href="dashboard_3.html">Organization Post</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Ad Post</span> <span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
-                            <li><a href="index.html">Room Buddy</a></li>
-                            <li><a href="#">Creative Sale</a></li>
-                            <li><a href="#">Donation Activity</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Bid Post</span> <span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
-                            <li><a href="index.html">Technical Challenge</a></li>
-                            <li><a href="dashboard_2.html">Social Responsibility</a></li>
-                            <li><a href="dashboard_3.html">Go Green</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Create New Post</span></a>
-                    </li>
-                </ul>
-            </div>
+				<jsp:include page="navigation/vertical-navigation.jsp"></jsp:include>
 			</div>
 			<div class="col-lg-10">
-				<div class="col-lg-12 navbar navbar-static-top top-menu-div" role="navigation" style="margin-bottom: 0">
-					<div class="navbar-header">
-						<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-							<form role="search" class="navbar-form-custom" action="search_results.html">
-								<div class="form-group">
-									<input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
-								</div>
-							</form>
-					</div>
-					<ul class="nav navbar-top-links navbar-right" style="display: -webkit-box;">
-						<li>
-							<span class="m-r-sm text-muted welcome-message">&nbsp;</span>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									<i class="fa fa-usd"></i><span class="label label-success">123</span>
-							</a>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-								<i class="fa fa-envelope"></i>  <span class="label label-warning">16</span>
-							</a>
-							<ul class="dropdown-menu dropdown-messages">
-								<li>
-									<div class="dropdown-messages-box">
-										<a href="profile.html" class="pull-left">
-											<img alt="image" class="img-circle" src="img/a1.jpg">
-										</a>
-										<div class="media-body">
-											<small class="pull-right">46h ago</small>
-											<strong>Nilesh Kapale</strong> started following <strong>Aniruddh Tomar</strong>. <br>
-											<small class="text-muted">2 days ago at 7:58 pm - 10.06.2014</small>
-										</div>
-									</div>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<div class="dropdown-messages-box">
-											<a href="profile.html" class="pull-left">
-												<img alt="image" class="img-circle" src="img/a2.jpg">
-											</a>
-											<div class="media-body ">
-												<small class="pull-right text-navy">5h ago</small>
-												<strong>Ashish Joshi</strong> started following <strong>Vinay Savant</strong>. <br>
-												<small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
-											</div>
-										</div>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<div class="dropdown-messages-box">
-											<a href="profile.html" class="pull-left">
-												<img alt="image" class="img-circle" src="img/a3.jpg">
-											</a>
-											<div class="media-body ">
-												<small class="pull-right">23h ago</small>
-													<strong>Mohan Biradar</strong> QA Session <strong>at Janjira</strong>. <br>
-												<small class="text-muted">2 days ago at 2:30 am - 11.06.2014</small>
-											</div>
-										</div>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<div class="text-center link-block">
-											<a href="mailbox.html">
-												<i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
-											</a>
-									</div>
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-								<i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
-							</a>
-							<ul class="dropdown-menu dropdown-alerts">
-								<li>
-									<a href="mailbox.html">
-										<div>
-											<i class="fa fa-envelope fa-fw"></i> +16 new post
-											<span class="pull-right text-muted small">4 minutes ago</span>
-										</div>
-									</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="profile.html">
-										<div>
-											<i class="fa fa-thumbs-up fa-fw"></i> +3K Likes
-											<span class="pull-right text-muted small">12 minutes ago</span>
-										</div>
-									</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="grid_options.html">
-										<div>
-											<i class="fa fa-thumbs-down fa-fw"></i> +1K Unlike
-											<span class="pull-right text-muted small">4 minutes ago</span>
-										</div>
-									</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<div class="text-center link-block">
-									<a href="notifications.html">
-									<strong>See All Alerts</strong>
-									<i class="fa fa-angle-right"></i>
-									</a>
-									</div>
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									<i class="fa fa-file"></i>
-							</a>
-						</li>
-						<li>
-							<a href="login.html">
-								<i class="fa fa-sign-out"></i> Log out
-							</a>
-						</li>
-					</ul>
-				</div>
+				<jsp:include page="navigation/top-navigation.jsp"></jsp:include>
+
 				<div class="row top-menu-div">
 					<div class="col-lg-12">
 						<div class="col-lg-12 breadcrumbDiv">
@@ -220,6 +25,7 @@
 		                </div>
 					</div>
 				</div>
+
 				<div class="row top-menu-div">
 					<div class="col-lg-12 ibox-main-div">
 		                <div class="ibox float-e-margins">
@@ -248,22 +54,9 @@
                 		</div>
 					</div>
 				</div>
-				<div class="footer">
-					<div class="pull-right">
-						10GB of <strong>250GB</strong> Free.
-					</div>
-					<div>
-						<strong>Copyright</strong> Sanbhu Corporation © 2017
-					</div>
-				</div>
+				<jsp:include page="footer/index.jsp"></jsp:include>
 			</div>
 		</div>
-		<script>
-			$(function () {
-				$('#side-menu').metisMenu({
-					toggle: false
-				});
-			});
-		</script>
+		<script src="js/view/welcome-page.js"></script>
 	</body>
 </html>
