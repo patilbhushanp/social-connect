@@ -64,6 +64,6 @@
 				<jsp:include page="../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
-		<script src="js/view/create-post/createPost.js"></script>
+		<script src="js/view/createPost/createPost.js"></script>
 	</body>
 </html>
