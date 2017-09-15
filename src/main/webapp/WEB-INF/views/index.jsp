@@ -8,19 +8,19 @@
 		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-awesome/font-awesome.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-	 	<link href="css/metismenu/metisMenu.css" rel="stylesheet"> 
-	 	
+	 	<link href="css/metismenu/metisMenu.min.css" rel="stylesheet">
+
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  	<script src="js/bootstrap/bootstrap.min.js"></script>		
-	  	<script src="js/metismenu/metisMenu.js"></script> 
-	  
-	  
+	  	<script src="js/bootstrap/bootstrap.min.js"></script>
+	  	<script src="js/metismenu/metisMenu.min.js"></script>
+
+
 	</head>
 	<body>
-		<div class="row">
+		<div class="row top-menu-div">
 			<div class="col-lg-2">
 				<div class="sidebar-collapse">
-                <ul class="nav metismenu" id="side-menu">
+                <ul class="nav metismenu" style="background-color: #293846;" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element">
                         	<span>
@@ -66,7 +66,7 @@
                         <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Bid Post</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse main-sub-nav-menu">
                             <li><a href="index.html">Technical Challenge</a></li>
-                            <li><a href="dashboard_2.html">Financial Help</a></li>
+                            <li><a href="dashboard_2.html">Social Responsibility</a></li>
                             <li><a href="dashboard_3.html">Go Green</a></li>
                         </ul>
                     </li>
@@ -74,7 +74,7 @@
             </div>
 			</div>
 			<div class="col-lg-10">
-				<div class="navbar navbar-static-top top-menu-div" role="navigation" style="margin-bottom: 0">
+				<div class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
 					<div class="navbar-header">
 						<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
 							<form role="search" class="navbar-form-custom" action="search_results.html">
@@ -196,7 +196,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="col-lg-10">
+						<!-- div class="col-lg-10">
 		                    <h2>Panels</h2>
 		                    <ol class="breadcrumb">
 		                        <li>
@@ -250,7 +250,7 @@
 		                    	</span>
 		                        This is simple footer example
 		                    </div>
-                		</div>
+                		</div-->
 					</div>
 				</div>
 				<div class="footer">

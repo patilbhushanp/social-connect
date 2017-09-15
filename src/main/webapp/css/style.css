@@ -43,7 +43,7 @@ body {
 
 a {
     cursor: pointer;
-    color: inherit;
+    color: #a7b1c2;
 }
 
 .caret {
@@ -78,7 +78,7 @@ li {
     color: #a7b1c2;
 }
 
-a:hover { 
+a:hover {
     color: #ffffff;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 .navbar-right {
     float: right!important;
  }
- 
+
  .nav>li>a {
     position: relative;
     display: block;
@@ -142,7 +142,7 @@ a:hover {
     bottom: 0;
     left: 0;
     padding: 10px 20px;
-    position: absolute;
+    position: fixed;
     right: 0;
 }
 
