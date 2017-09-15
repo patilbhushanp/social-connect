@@ -50,6 +50,13 @@
 		                    	<div class="sub-category-group">
 									<textarea id="tags" rows="3"></textarea>
 		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;">
+		                    		<div class="col-lg-12">
+										<div id="editor">
+											<h1>Please add your post here...</h1>
+										</div>
+		                    		</div>
+		                    	</div>
 		                    </div>
                 		</div>
 					</div>
