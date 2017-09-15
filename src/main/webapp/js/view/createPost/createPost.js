@@ -34,7 +34,7 @@ $('#tags').textext({
 });
 
 
-CKEDITOR.config.height = 200;
+CKEDITOR.config.height = 175;
 CKEDITOR.config.width = 'auto';
 CKEDITOR.config.toolbarGroups = [
 	{ name: 'document', groups: [ 'mode', 'document', 'doctools' ] },

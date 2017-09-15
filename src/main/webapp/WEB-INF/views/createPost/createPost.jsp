@@ -46,16 +46,22 @@
 			                    	<button type="button" class="btn btn-w-m btn-success">Database</button>
 			                    	<button type="button" class="btn btn-w-m btn-success">PHP</button>
 		                    	</div>
-		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Add Tags</b></h5></div>
-		                    	<div class="sub-category-group">
-									<textarea id="tags" rows="3"></textarea>
-		                    	</div>
-		                    	<div style="padding: 5px 0px 0px 14px;">
-		                    		<div class="col-lg-12">
-										<div id="editor">
-											<h1>Please add your post here...</h1>
-										</div>
-		                    		</div>
+		                    	<div class="row">
+			                    	<div class="col-lg-3">
+				                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Add Tags</b></h5></div>
+				                    	<div class="sub-category-group">
+											<textarea id="tags" rows="3"></textarea>
+				                    	</div>			                    	
+			                    	</div>
+			                    	<div class="col-lg-9">
+				                    	<div style="padding: 5px 0px 0px 14px;">
+				                    		<div class="col-lg-12">
+												<div id="editor">
+													<h1>Please add your post here...</h1>
+												</div>
+				                    		</div>
+				                    	</div>			                    	
+			                    	</div>
 		                    	</div>
 		                    </div>
                 		</div>
