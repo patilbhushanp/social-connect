@@ -7,7 +7,7 @@ body {
 }
 
 .top-menu-div {
-    background-color: #f3f3f4;
+    background-color: #ffffff;
     color: #888888;
 }
 
@@ -147,9 +147,14 @@ a:hover {
 }
 
 .breadcrumb {
-    background-color: #ffffff;
+    background-color: #f3f3f4;
     padding: 0;
     margin-bottom: 0;
+}
+
+.breadcrumb-active {
+	width: inherit;
+    color: #888888;
 }
 
 h2 {
@@ -170,4 +175,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     padding: 0 20px;
+}
+
+.breadcrumbDiv {
+	background-color: #f3f3f4;
+}
+
+.ibox-main-div {
+    padding-top: 10px;
+    width: 98%;
+    height: 627px;
+}
+
+.ibox-content {
+    background-color: #f3f3f4;
 }

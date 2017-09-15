@@ -17,7 +17,7 @@
 
 	</head>
 	<body>
-		<div class="row top-menu-div">
+		<div class="row">
 			<div class="col-lg-2">
 				<div class="sidebar-collapse">
                 <ul class="nav metismenu" style="background-color: #293846;" id="side-menu">
@@ -74,7 +74,7 @@
             </div>
 			</div>
 			<div class="col-lg-10">
-				<div class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+				<div class="col-lg-12 navbar navbar-static-top top-menu-div" role="navigation" style="margin-bottom: 0">
 					<div class="navbar-header">
 						<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
 							<form role="search" class="navbar-form-custom" action="search_results.html">
@@ -86,6 +86,11 @@
 					<ul class="nav navbar-top-links navbar-right" style="display: -webkit-box;">
 						<li>
 							<span class="m-r-sm text-muted welcome-message">&nbsp;</span>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<i class="fa fa-usd"></i><span class="label label-success">123</span>
+							</a>
 						</li>
 						<li class="dropdown">
 							<a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -194,9 +199,9 @@
 						</li>
 					</ul>
 				</div>
-				<div class="row">
+				<div class="row top-menu-div">
 					<div class="col-lg-12">
-						<!-- div class="col-lg-10">
+						<div class="col-lg-12 breadcrumbDiv">
 		                    <h2>Panels</h2>
 		                    <ol class="breadcrumb">
 		                        <li>
@@ -205,52 +210,39 @@
 		                        <li>
 		                            <a>UI Elements</a>
 		                        </li>
-		                        <li class="active">
+		                        <li class="breadcrumb-active">
 		                            <strong>Panels</strong>
 		                        </li>
 		                    </ol>
 		                </div>
+					</div>
+				</div>
+				<div class="row top-menu-div">
+					<div class="col-lg-12 ibox-main-div">
 		                <div class="ibox float-e-margins">
 		                    <div class="ibox-title">
-		                        <h5>Basic IN+ Panel <small class="m-l-sm">This is custom panel</small></h5>
-		                        <div class="ibox-tools">
-		                            <a class="collapse-link">
-		                                <i class="fa fa-chevron-up"></i>
-		                            </a>
-		                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-		                                <i class="fa fa-wrench"></i>
-		                            </a>
-		                            <ul class="dropdown-menu dropdown-user">
-		                                <li><a href="#">Config option 1</a>
-		                                </li>
-		                                <li><a href="#">Config option 2</a>
-		                                </li>
-		                            </ul>
-		                            <a class="close-link">
-		                                <i class="fa fa-times"></i>
-		                            </a>
-		                        </div>
+		                        <h5>Technical post for techies <small class="m-l-sm">learn..share..improve..</small></h5>
 		                    </div>
 		                    <div class="ibox-content">
-		                        <h2>
-		                            This is standard IN+ Panel<br>
-		                        </h2>
-		                        <p>
-		                            <strong>Lorem ipsum dolor</strong>
-		                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-		                        <p>
-		                            <small>
-		                                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-		                            </small>
-		                        </p>
+								<h2>What is use of Functional Interface in Java 8?</h2><br/>
+								<p>I came across new term named "Functional Interface" in Java 8. </p>
+
+								<p>I could found only one use of this interface while working with Lambda expressions. </p>
+
+								<p>Java 8 provides some inbuilt functional interfaces and if we want to define any functional interface then we can make use of @FunctionalInterface annotation. It will allow to declare only single method in the interface.</p>
+
+								<p>for example:</p>
+
+								<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="lit">@FunctionalInterface</span><span class="pln">
+								 </span><span class="kwd">interface</span><span class="pln"> </span><span class="typ">MathOperation</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+								      </span><span class="kwd">int</span><span class="pln"> operation</span><span class="pun">(</span><span class="kwd">int</span><span class="pln"> a</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">int</span><span class="pln"> b</span><span class="pun">);</span><span class="pln">
+								 </span><span class="pun">}</span></code></pre>
+
+								<p>How useful it is in Java 8 (other than while working with Lambda expressions)? </p>
+
+								<p>The question <a href="https://stackoverflow.com/questions/33010594/why-do-i-need-a-functional-interface-to-work-with-lambdas">here</a> is different than the one I asked. It is asking why we need Functional Interface while working with Lambda expression. My question is use of Functional interface other than with Lambda expression.</p>
 		                    </div>
-		                    <div class="ibox-footer">
-		                        <span class="pull-right">
-		                          The righ side of the footer
-		                    	</span>
-		                        This is simple footer example
-		                    </div>
-                		</div-->
+                		</div>
 					</div>
 				</div>
 				<div class="footer">
