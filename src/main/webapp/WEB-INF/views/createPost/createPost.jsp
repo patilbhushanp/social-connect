@@ -1,4 +1,4 @@
-<jsp:include page="../header/index.jsp"></jsp:include>
+<jsp:include page="../header/header.jsp"></jsp:include>
 	<body>
 		<div class="row">
 			<div class="col-lg-2">
@@ -61,7 +61,7 @@
                 		</div>
 					</div>
 				</div>
-				<jsp:include page="../footer/index.jsp"></jsp:include>
+				<jsp:include page="../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
 		<script src="js/view/create-post/createPost.js"></script>
