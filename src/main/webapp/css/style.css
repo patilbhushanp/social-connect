@@ -226,3 +226,43 @@ img {
     min-width: 0;
     padding: 10px 10px 10px 10px;
 }
+
+.category-group {
+	 margin-left: 120px;
+}
+
+.sub-category-group {
+	 margin-left: 120px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-success {
+	background-color: #1ab394;
+	border-color: #1ab394;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
+}

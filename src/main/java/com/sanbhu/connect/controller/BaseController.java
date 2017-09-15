@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class BaseController {
-	
+
 	@GetMapping("/")
-	public String hello(Model model) {
+	public String welcome(Model model) {
 		model.addAttribute("name", "John Doe");
 		return "index";
 	}

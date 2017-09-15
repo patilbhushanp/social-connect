@@ -14,4 +14,5 @@
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  	<script src="js/bootstrap/bootstrap.min.js"></script>
 	  	<script src="js/metismenu/metisMenu.min.js"></script>
+	  	<script src="js/textext/jquery.textext.min.js"></script>
 	</head>

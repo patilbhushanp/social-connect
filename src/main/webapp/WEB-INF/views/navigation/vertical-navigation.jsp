@@ -50,7 +50,7 @@
 	                        </ul>
 	                    </li>
 	                    <li>
-	                        <a href="index.html"><i class="fa fa-file"></i> <span class="nav-label">Create New Post</span></a>
+	                        <a href="createPost.xconnect"><i class="fa fa-file"></i> <span class="nav-label">Create New Post</span></a>
 	                    </li>
 	                </ul>
             	</div>
