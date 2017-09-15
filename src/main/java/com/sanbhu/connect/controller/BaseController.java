@@ -11,6 +11,6 @@ public class BaseController {
 	@GetMapping("/")
 	public String welcome(Model model) {
 		model.addAttribute("name", "John Doe");
-		return "index";
+		return "welcome";
 	}
 }

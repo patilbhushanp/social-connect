@@ -9,6 +9,6 @@ public class PostController {
 
 	@GetMapping("/createPost.xconnect")
 	public String createPost(Model model) {
-		return "create-post/index";
+		return "createPost/createPost";
 	}
 }
