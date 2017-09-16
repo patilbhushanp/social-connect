@@ -26,9 +26,12 @@
 	                        </div>
 	                    </li>
 	                    <li class="active">
-	                        <a href="index.html"><i class="fa fa-list"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
+	                        <a href="createPost.xconnect"><i class="fa fa-file"></i> <span class="nav-label">Create New Post</span></a>
+	                    </li>
+	                    <li>
+	                        <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
 	                        <ul class="nav nav-second-level collapse in">
-	                            <li class="active"><a href="index.html">Technical Post</a></li>
+	                            <li class="active"><a href="techPostDetail.xconnect">Technical Post</a></li>
 	                            <li><a href="dashboard_2.html">Event Post</a></li>
 	                            <li><a href="dashboard_3.html">Organization Post</a></li>
 	                        </ul>
@@ -48,9 +51,6 @@
 	                            <li><a href="dashboard_2.html">Social Responsibility</a></li>
 	                            <li><a href="dashboard_3.html">Go Green</a></li>
 	                        </ul>
-	                    </li>
-	                    <li>
-	                        <a href="createPost.xconnect"><i class="fa fa-file"></i> <span class="nav-label">Create New Post</span></a>
 	                    </li>
 	                </ul>
             	</div>

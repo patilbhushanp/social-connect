@@ -34,7 +34,28 @@ $('#tags').textext({
 });
 
 
-CKEDITOR.config.height = 175;
+$('#accessibilityTags').textext({
+	plugins : 'tags autocomplete'
+}).bind('getSuggestions', function(e, data){
+	var list = [
+			'bhushanp@xpanxion.co.in',
+			'jashish@xpanxion.co.in',
+			'vinays@xpanxion.co.in',
+			'aniruddht@xpanxion.co.in',
+			'kartikeyk@xpanxion.co.in',
+			'mohanb@xpanxion.co.in',
+			'vishals@xpancion.co.in'
+		],
+		textext = $(e.target).textext()[0],
+		query = (data ? data.query : '') || '';
+	$(this).trigger(
+		'setSuggestions',
+		{ result : textext.itemManager().filter(list, query) }
+	);
+});
+
+
+CKEDITOR.config.height = 275;
 CKEDITOR.config.width = 'auto';
 CKEDITOR.config.toolbarGroups = [
 	{ name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
@@ -84,3 +105,12 @@ var initRichTextEditor = ( function() {
 	};
 } )();
 initRichTextEditor();
+
+$( document ).ready(function() {
+	setTimeout(changeBackgroundColorOfEditorToolbar, 200);
+});
+
+function changeBackgroundColorOfEditorToolbar() {
+	$('#cke_1_top').css('background-color','#BCF8B9');
+}
+

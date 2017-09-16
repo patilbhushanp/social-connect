@@ -11,4 +11,9 @@ public class PostController {
 	public String createPost(Model model) {
 		return "createPost/createPost";
 	}
+
+	@GetMapping("/techPostDetail.xconnect")
+	public String getTechnicalPostDetail() {
+		return "postStack/techPost/techPostDetail";
+	}
 }
