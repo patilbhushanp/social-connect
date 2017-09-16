@@ -1,11 +1,11 @@
-<jsp:include page="header/header.jsp"></jsp:include>
+<jsp:include page="../header/header.jsp"></jsp:include>
 	<body>
 		<div class="row">
 			<div class="col-lg-2">
-				<jsp:include page="navigation/vertical-navigation.jsp"></jsp:include>
+				<jsp:include page="../navigation/verticalNavigation.jsp"></jsp:include>
 			</div>
 			<div class="col-lg-10">
-				<jsp:include page="navigation/top-navigation.jsp"></jsp:include>
+				<jsp:include page="../navigation/topNavigation.jsp"></jsp:include>
 
 				<div class="row top-menu-div">
 					<div class="col-lg-12">
@@ -54,9 +54,9 @@
                 		</div>
 					</div>
 				</div>
-				<jsp:include page="footer/footer.jsp"></jsp:include>
+				<jsp:include page="../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
-		<script src="js/view/welcome.js"></script>
+		<script src="js/view/welcome/welcome.js"></script>
 	</body>
 </html>

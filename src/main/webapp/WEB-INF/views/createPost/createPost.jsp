@@ -1,11 +1,10 @@
 <jsp:include page="../header/header.jsp"></jsp:include>
 	<body>
-		<div class="row">
 			<div class="col-lg-2">
-				<jsp:include page="../navigation/vertical-navigation.jsp"></jsp:include>
+				<jsp:include page="../navigation/verticalNavigation.jsp"></jsp:include>
 			</div>
 			<div class="col-lg-10">
-				<jsp:include page="../navigation/top-navigation.jsp"></jsp:include>
+				<jsp:include page="../navigation/topNavigation.jsp"></jsp:include>
 
 				<div class="row top-menu-div">
 					<div class="col-lg-12">
@@ -51,7 +50,7 @@
 				                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Add Tags</b></h5></div>
 				                    	<div class="sub-category-group">
 											<textarea id="tags" rows="3"></textarea>
-				                    	</div>			                    	
+				                    	</div>
 			                    	</div>
 			                    	<div class="col-lg-9">
 				                    	<div style="padding: 5px 0px 0px 14px;">
@@ -60,7 +59,7 @@
 													<h1>Please add your post here...</h1>
 												</div>
 				                    		</div>
-				                    	</div>			                    	
+				                    	</div>
 			                    	</div>
 		                    	</div>
 		                    </div>
