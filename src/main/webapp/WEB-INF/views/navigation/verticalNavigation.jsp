@@ -31,7 +31,7 @@
 	                    <li>
 	                        <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
 	                        <ul class="nav nav-second-level collapse in">
-	                            <li class="active"><a href="techPostDetail.xconnect">Technical Post</a></li>
+	                            <li class="active"><a href="techPostList.xconnect">Technical Post</a></li>
 	                            <li><a href="dashboard_2.html">Event Post</a></li>
 	                            <li><a href="dashboard_3.html">Organization Post</a></li>
 	                        </ul>

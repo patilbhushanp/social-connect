@@ -16,4 +16,9 @@ public class PostController {
 	public String getTechnicalPostDetail() {
 		return "postStack/techPost/techPostDetail";
 	}
+	
+	@GetMapping("/techPostList.xconnect")
+	public String getTechnicalPost() {
+		return "postStack/techPost/techPostList";
+	}
 }
