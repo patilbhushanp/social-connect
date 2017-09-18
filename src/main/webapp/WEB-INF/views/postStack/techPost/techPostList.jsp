@@ -55,10 +55,11 @@
 																</div>
 																<div id="collapseOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -70,15 +71,16 @@
 																		</a>
 																		<span class="pull-right">
 																			<small><b>last updated at: 18th Sept 2017 06:47:23 &nbsp; <i class="fa fa-spinner" style="color:blue;"></i></b></small>
-																		</span>																		
+																		</span>
 																	</h4>
 																</div>
 																<div id="collapseTwo" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -95,10 +97,11 @@
 																</div>
 																<div id="collapseThree" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="/techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -115,10 +118,11 @@
 																</div>
 																<div id="collapseFour" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -135,10 +139,11 @@
 																</div>
 																<div id="collapseFive" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -155,10 +160,11 @@
 																</div>
 																<div id="collapseSix" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -175,10 +181,11 @@
 																</div>
 																<div id="collapseSeven" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -195,10 +202,11 @@
 																</div>
 																<div id="collapseEight" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -215,10 +223,11 @@
 																</div>
 																<div id="collapseNine" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -235,10 +244,11 @@
 																</div>
 																<div id="collapseTen" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -261,10 +271,11 @@
 																</div>
 																<div id="collapseTab2One" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -281,10 +292,11 @@
 																</div>
 																<div id="collapseTab2Two" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -301,10 +313,11 @@
 																</div>
 																<div id="collapseTab2Three" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -321,10 +334,11 @@
 																</div>
 																<div id="collapseTab2Four" class="panel-collapse collapse" aria-expanded="true" style="">
 																	<div class="panel-body-collapse">
-																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block. 
+																		<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
 																		finally block is mostly used to release resources created in the try block.</p>
-																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object 
+																		<p>finalize() is a special method in Object class that we can override in our classes. This method get’s called by garbage collector when the object
 																		is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
+																		<br/><a href="techPostDetail.xconnect" type="button" class="btn btn-w-m btn-success">Details</a>
 																	</div>
 																</div>
 															</div>
@@ -354,7 +368,7 @@
 														<strong>Dot Net</strong>
 														<p>Dot Net API</p>
 													</div>
-												</div>		
+												</div>
 											</div>
 										</div>
 									</div>
@@ -364,6 +378,7 @@
 				<jsp:include page="../../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
+		<script src="js/view/common.js"></script>
 		<script src="js/view/postStack/techPost/techPostList.js"></script>
 	</body>
 </html>

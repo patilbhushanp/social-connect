@@ -44,11 +44,12 @@
 									              <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small></p>
 									            </div>
 									            <div class="timeline-body">
-									              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-									              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-									            </div>
+													<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
+													finally block is mostly used to release resources created in the try block.</p>
+													<p>finalize() is a special method in Object class that we can override in our classes. This method getâ€™s called by garbage collector when the object
+													is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>									            </div>
 									          </div>
-									        </li>									    
+									        </li>
 									        <li class="timeline-inverted">
 									          <div class="timeline-badge danger"><i class="fa fa-thumbs-down"></i></div>
 									          <div class="timeline-panel">
@@ -57,7 +58,10 @@
 									              <p><small class="text-muted"><i class="fa fa-clock-o"></i> 1 day ago</small></p>
 									            </div>
 									            <div class="timeline-body">
-									              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+													<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
+													finally block is mostly used to release resources created in the try block.</p>
+													<p>finalize() is a special method in Object class that we can override in our classes. This method getâ€™s called by garbage collector when the object
+													is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
 									            </div>
 									          </div>
 									        </li>
@@ -69,7 +73,10 @@
 									              <p><small class="text-muted"><i class="fa fa-clock-o"></i> 15 hours ago</small></p>
 									            </div>
 									            <div class="timeline-body">
-									              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+													<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
+													finally block is mostly used to release resources created in the try block.</p>
+													<p>finalize() is a special method in Object class that we can override in our classes. This method getâ€™s called by garbage collector when the object
+													is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
 									            </div>
 									          </div>
 									        </li>
@@ -81,7 +88,10 @@
 									              <p><small class="text-muted"><i class="fa fa-clock-o"></i> 5 hours ago</small></p>
 									            </div>
 									            <div class="timeline-body">
-									              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+													<p>finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
+													finally block is mostly used to release resources created in the try block.</p>
+													<p>finalize() is a special method in Object class that we can override in our classes. This method getâ€™s called by garbage collector when the object
+													is getting garbage collected. This method is usually overridden to release system resources when object is garbage collected.</p>
 									            </div>
 									          </div>
 									        </li>
@@ -96,7 +106,7 @@
 									              <p>Thank you so much!!!</p>
 									            </div>
 									          </div>
-									        </li>									        
+									        </li>
 									    </ul>
 									</div>
 		                		</div>
@@ -106,6 +116,7 @@
 				<jsp:include page="../../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
-				<script src="js/view/postStack/techPost/techPostDetail.js"></script>
+		<script src="js/view/common.js"></script>
+		<script src="js/view/postStack/techPost/techPostDetail.js"></script>
 	</body>
 </html>

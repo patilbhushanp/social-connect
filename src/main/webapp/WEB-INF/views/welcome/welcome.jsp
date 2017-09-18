@@ -57,6 +57,7 @@
 				<jsp:include page="../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
+		<script src="js/view/common.js"></script>
 		<script src="js/view/welcome/welcome.js"></script>
 	</body>
 </html>
