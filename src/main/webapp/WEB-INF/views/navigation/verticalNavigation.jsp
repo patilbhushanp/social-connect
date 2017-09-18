@@ -32,25 +32,32 @@
 	                        <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
 	                        <ul class="nav nav-second-level collapse in">
 	                            <li class="active"><a href="techPostList.xconnect">Technical Post</a></li>
-	                            <li><a href="dashboard_2.html">Event Post</a></li>
-	                            <li><a href="dashboard_3.html">Organization Post</a></li>
+	                            <li><a href="#">Bidding Challenge</a></li>
 	                        </ul>
 	                    </li>
 	                    <li>
-	                        <a href="index.html"><i class="fa fa-sticky-note"></i> <span class="nav-label">Ad Post</span> <span class="fa arrow"></span></a>
+	                        <a href="#"><i class="fa fa-building-o"></i> <span class="nav-label">Organization Post</span> <span class="fa arrow"></span></a>
 	                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
-	                            <li><a href="index.html">Room Buddy</a></li>
+	                        	<li><a href="#">Event Post</a></li>
+	                        	<li><a href="#">Announcement Post</a></li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <a href="#"><i class="fa fa-sticky-note"></i> <span class="nav-label">Advertise Post</span> <span class="fa arrow"></span></a>
+	                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
+	                            <li><a href="#">Room Buddy</a></li>
 	                            <li><a href="#">Creative Sale</a></li>
+
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <a href="#"><i class="fa fa-chrome"></i> <span class="nav-label">Social Responsibility</span> <span class="fa arrow"></span></a>
+	                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
 	                            <li><a href="#">Donation Activity</a></li>
 	                        </ul>
 	                    </li>
 	                    <li>
-	                        <a href="index.html"><i class="fa fa-gavel"></i> <span class="nav-label">Bid Post</span> <span class="fa arrow"></span></a>
-	                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
-	                            <li><a href="index.html">Technical Challenge</a></li>
-	                            <li><a href="dashboard_2.html">Social Responsibility</a></li>
-	                            <li><a href="dashboard_3.html">Go Green</a></li>
-	                        </ul>
+	                        <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Go Green</span></a>
 	                    </li>
 	                </ul>
             	</div>

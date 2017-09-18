@@ -29,17 +29,15 @@
 		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Post Type</b></h5></div>
 		                    	<div class="post-type-group">
 			                    	<button type="button" class="btn btn-w-m btn-success">Post Stack</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Bidding Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Voting Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Broadcast Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Organizational</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Advertise</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Social</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Go Green</button>
 		                    	</div>
 		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Category</b></h5></div>
 		                    	<div class="category-group">
 			                    	<button type="button" class="btn btn-w-m btn-success">Technical Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Event Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Organization Level Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Advertising Post</button>
-			                    	<button type="button" class="btn btn-w-m btn-success">Biding Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Bidding Challenge</button>
 		                    	</div>
 		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Sub Category</b></h5></div>
 		                    	<div class="sub-category-group">

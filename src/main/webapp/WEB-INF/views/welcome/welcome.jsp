@@ -1,6 +1,5 @@
 <jsp:include page="../header/header.jsp"></jsp:include>
 	<body>
-		<div class="row">
 			<div class="col-lg-2">
 				<jsp:include page="../navigation/verticalNavigation.jsp"></jsp:include>
 			</div>
@@ -10,16 +9,13 @@
 				<div class="row top-menu-div">
 					<div class="col-lg-12">
 						<div class="col-lg-12 breadcrumbDiv">
-		                    <h2>Technical Stack</h2>
+		                    <h2>Create</h2>
 		                    <ol class="breadcrumb">
 		                        <li>
 		                            <a href="index.html">Home</a>
 		                        </li>
-		                        <li>
-		                            <a>Core Java</a>
-		                        </li>
 		                        <li class="breadcrumb-active">
-		                            <strong>Java 8</strong>
+		                            <strong>New Post</strong>
 		                        </li>
 		                    </ol>
 		                </div>
@@ -29,27 +25,48 @@
 				<div class="row top-menu-div">
 					<div class="col-lg-12 ibox-main-div">
 		                <div class="ibox float-e-margins">
-		                    <div class="ibox-title">
-		                        <h5>Technical post for techies <small class="m-l-sm">learn..share..improve..</small></h5>
-		                    </div>
 		                    <div class="ibox-content">
-								<h2>What is use of Functional Interface in Java 8?</h2><br/>
-								<p>I came across new term named "Functional Interface" in Java 8. </p>
-
-								<p>I could found only one use of this interface while working with Lambda expressions. </p>
-
-								<p>Java 8 provides some inbuilt functional interfaces and if we want to define any functional interface then we can make use of @FunctionalInterface annotation. It will allow to declare only single method in the interface.</p>
-
-								<p>for example:</p>
-
-								<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="lit">@FunctionalInterface</span><span class="pln">
-								 </span><span class="kwd">interface</span><span class="pln"> </span><span class="typ">MathOperation</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
-								      </span><span class="kwd">int</span><span class="pln"> operation</span><span class="pun">(</span><span class="kwd">int</span><span class="pln"> a</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">int</span><span class="pln"> b</span><span class="pun">);</span><span class="pln">
-								 </span><span class="pun">}</span></code></pre>
-
-								<p>How useful it is in Java 8 (other than while working with Lambda expressions)? </p>
-
-								<p>The question <a href="https://stackoverflow.com/questions/33010594/why-do-i-need-a-functional-interface-to-work-with-lambdas">here</a> is different than the one I asked. It is asking why we need Functional Interface while working with Lambda expression. My question is use of Functional interface other than with Lambda expression.</p>
+		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Post Type</b></h5></div>
+		                    	<div class="post-type-group">
+			                    	<button type="button" class="btn btn-w-m btn-success">Post Stack</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Bidding Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Voting Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Broadcast Post</button>
+		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Category</b></h5></div>
+		                    	<div class="category-group">
+			                    	<button type="button" class="btn btn-w-m btn-success">Technical Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Event Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Organization Level Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Advertising Post</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Biding Post</button>
+		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Sub Category</b></h5></div>
+		                    	<div class="sub-category-group">
+			                    	<button type="button" class="btn btn-w-m btn-success">Java</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Dot Net</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">JS Frameworks</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Database</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">PHP</button>
+		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Add Tags</b></h5></div>
+		                    	<div class="sub-category-group">
+									<textarea id="tags" style="width:400px;" rows="3"></textarea>
+		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;" ><h5><b>Accessibility Level</b></h5></div>
+		                    	<div class="accessibility-group">
+			                    	<button type="button" class="btn btn-w-m btn-success">Organization</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Department</button>
+			                    	<button type="button" class="btn btn-w-m btn-success">Custom</button><br/><br/>
+			                    	<textarea id="accessibilityTags" style="width:300px;" rows="2"></textarea><br/>
+		                    	</div>
+		                    	<div style="padding: 5px 0px 0px 14px;">
+		                    		<div class="col-lg-12" style="padding: initial;">
+										<div id="editor">
+											<h1>Please add your post here...</h1>
+										</div>
+		                    		</div>
+		                    	</div>
 		                    </div>
                 		</div>
 					</div>
@@ -58,6 +75,6 @@
 			</div>
 		</div>
 		<script src="js/view/common.js"></script>
-		<script src="js/view/welcome/welcome.js"></script>
+		<script src="js/view/createPost/createPost.js"></script>
 	</body>
 </html>
