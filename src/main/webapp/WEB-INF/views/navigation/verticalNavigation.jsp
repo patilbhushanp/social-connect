@@ -14,7 +14,7 @@
 	  								</span>
 								</a>
 	                           	<ul class="dropdown-menu">
-	                               <li><a href="profile.html">Profile</a></li>
+	                               <li><a href="myProfile.xconnect">Profile</a></li>
 	                               <li><a href="contacts.html">Contacts</a></li>
 	                               <li><a href="mailbox.html">Mailbox</a></li>
 	                               <li class="divider"></li>
@@ -53,6 +53,7 @@
 	                    <li>
 	                        <a href="#"><i class="fa fa-chrome"></i> <span class="nav-label">Social Responsibility</span> <span class="fa arrow"></span></a>
 	                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
+	                            <li><a href="userList.xconnect">Team Directory</a></li>
 	                            <li><a href="#">Donation Activity</a></li>
 	                        </ul>
 	                    </li>
