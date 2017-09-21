@@ -73,6 +73,12 @@ CKEDITOR.config.toolbarGroups = [
 	{ name: 'about', groups: [ 'about' ] }
 ];
 CKEDITOR.config.removeButtons = 'NewPage,Print,Templates,PasteText,SelectAll,Scayt,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,RemoveFormat,CopyFormatting,Blockquote,CreateDiv,Language,Anchor,Flash,Smiley,SpecialChar,PageBreak,Iframe,About';
+//CKEDITOR.config.extraPlugins = 'imagepaste';
+CKEDITOR.config.extraPlugins = 'uploadimage';
+
+CKEDITOR.config.uploadUrl = '/social-connect/uploadImage.xconnect?command=QuickUpload&type=Images&responseType=json';
+CKEDITOR.config.filebrowserImageBrowseUrl = '/social-connect/browserImage.xconnect';
+CKEDITOR.config.filebrowserImageUploadUrl = '/social-connect/uploadImage.xconnect?command=QuickUpload&type=Images';
 
 CKEDITOR.editorConfig = function( config ) {
 	config.language = 'es';
@@ -85,10 +91,7 @@ var initRichTextEditor = ( function() {
 	return function() {
 		var editorElement = CKEDITOR.document.getById( 'editor' );
 		if ( isBBCodeBuiltIn ) {
-			editorElement1.setHtml(
-				'Hello world!\n\n' +
-				'I\'m an instance of'
-			);
+			editorElement1.setHtml('');
 		}
 		if ( wysiwygareaAvailable ) {
 			CKEDITOR.replace( 'editor' );
