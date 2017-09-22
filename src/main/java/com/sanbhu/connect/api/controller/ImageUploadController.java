@@ -1,10 +1,13 @@
 package com.sanbhu.connect.api.controller;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.util.Base64Utils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,7 +19,7 @@ public class ImageUploadController {
 
 	@RequestMapping(value = "/uploadImage.xconnect", method = RequestMethod.POST)
 	public @ResponseBody
-	String uploadFileHandler(@RequestParam("upload") MultipartFile file) {
+	String uploadImageHandler(@RequestParam("upload") MultipartFile file) {
 		if (!file.isEmpty()) {
 			try {
 				byte[] bytes = file.getBytes();
@@ -31,11 +34,16 @@ public class ImageUploadController {
 				BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(serverFile));
 				stream.write(bytes);
 				stream.close();
-				System.out.println("Server File Location=" + serverFile.getAbsolutePath());
+				
+				BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(serverFile));
+				byte[] readBytes = new byte[bufferedInputStream.available()];
+				bufferedInputStream.read(readBytes);
+				bufferedInputStream.close();
+				
 				return "{" +
 						"\"fileName\":\"image(39).png\"," +
 						"\"uploaded\":1," +
-						"\"url\":\"imageRenderer.xconnect\"" +
+						"\"url\":\"" + "data:image/png;base64," + Base64Utils.encodeToString(readBytes) + "\"" +
 						"}";
 			} catch (Exception e) {
 				return "FAILED";
