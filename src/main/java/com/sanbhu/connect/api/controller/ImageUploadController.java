@@ -29,12 +29,12 @@ public class ImageUploadController {
 				if (!dir.exists()) {
 					dir.mkdirs();
 				}
-
+				//uploading part
 				File serverFile = new File(dir.getAbsolutePath() + File.separator + "tempImage.png");
 				BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(serverFile));
 				stream.write(bytes);
 				stream.close();
-				
+				//rendering part
 				BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(serverFile));
 				byte[] readBytes = new byte[bufferedInputStream.available()];
 				bufferedInputStream.read(readBytes);
