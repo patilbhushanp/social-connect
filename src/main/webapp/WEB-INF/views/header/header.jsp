@@ -11,10 +11,11 @@
 		<link href="css/style.css" rel="stylesheet">
 	 	<link href="css/metismenu/metisMenu.min.css" rel="stylesheet">
 	 	
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	  	<script src="js/bootstrap/bootstrap.min.js"></script>
 	  	<script src="js/metismenu/metisMenu.min.js"></script>
+	  	<script src="js/datatable/datatables.min.js"></script>
 	  	<script src="js/textext/jquery.textext.min.js"></script>
-
+	  
 	  	<script	type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
 	</head>
