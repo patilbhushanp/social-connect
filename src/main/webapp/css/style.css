@@ -539,5 +539,12 @@ tr.shown td.details-control {
 }
 
 .personal-info{
-	
+	background-color: #A9F5BC;
+}
+
+.go-green-concept{
+	background-image: url(../img/go-green-benefits.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }

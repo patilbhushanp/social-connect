@@ -58,7 +58,7 @@
 	                        </ul>
 	                    </li>
 	                    <li>
-	                        <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Go Green</span></a>
+	                        <a href="goGreenConcept.xconnect"><i class="fa fa-globe"></i> <span class="nav-label">Go Green</span></a>
 	                    </li>
 	                </ul>
             	</div>

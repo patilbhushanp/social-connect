@@ -31,7 +31,7 @@
 									<thead>
 										<tr>
 											<th>Employee Name</th>
-											<th>OU</th>
+											<th>Practice Unit</th>
 											<th>Designation</th>
 											<th>Work Location</th>
 											<th></th>

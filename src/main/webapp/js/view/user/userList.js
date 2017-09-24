@@ -38,7 +38,7 @@ $(document).ready(function() {
         ],
         pageLength: 10,
         responsive: true,
-        dom: '<"toolbar">fpt',
+        dom: '<"toolbar">fipt',
         "order": [[0, 'asc']]
     });
 	
@@ -54,8 +54,9 @@ $(document).ready(function() {
         }
     });
     $('#userListTable_filter').addClass('col-lg-3');
-    $('#userListTable_filter').addClass('pull-left');
-    $('#userListTable_paginate').addClass('col-lg-9');
+    $('#userListTable_info').addClass('col-lg-3');
+    $('#userListTable_paginate').addClass('col-lg-6');
+    $('#userListTable_paginate').addClass('pull-left');
     
     $('input[type=search]').each(function(index, element) {
     	$(element).css('height', '28px');
@@ -65,20 +66,20 @@ $(document).ready(function() {
 
 /* Formatting function for row details - modify as you need */
 function format ( data ) {
-    return '<div class="personal-info" >' +
-				'<div class="col-lg-6 pull-right">'+
-				    '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+    return '<div>' +
+				'<div class="col-lg-6 pull-right personal-info" >'+
+				    '<table cellpadding="5" cellspacing="0" border="0" style="width: 60%;padding-left:50px;height:130px;">'+
 				        '<tr>'+
 					        '<td></td>'+    
-					        '<td><img src="img/unknown-person.png" title="employee snap" alt="employee snap" /></td>' +
+					        '<td class="pull-right"><img style="height:130px;" src="img/unknown-person.png" title="employee snap" alt="employee snap" /></td>' +
 				        '</tr>'+
 				    '</table>'+
 				'</div>' +
-				'<div class="col-lg-6 pull-left">'+
-				    '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+				'<div class="col-lg-6 pull-left personal-info">'+
+				    '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;height:130px;">'+
 				        '<tr>'+
-				            '<td>Full name:</td>'+
-				            '<td>' + data.EmployeeName + '</td>'+
+				            '<td width="30%" >Full name:</td>'+
+				            '<td width="70%" >' + data.EmployeeName + '</td>'+
 				        '</tr>'+
 				        '<tr>'+
 				            '<td>Email Id:</td>'+
