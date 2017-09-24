@@ -16,6 +16,7 @@
 	  	<script src="js/metismenu/metisMenu.min.js"></script>
 	  	<script src="js/datatable/datatables.min.js"></script>
 	  	<script src="js/textext/jquery.textext.min.js"></script>
+		<script src="js/slimscroll/jquery.slimscroll.min.js"></script>
 	  
 	  	<script	type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
 	</head>

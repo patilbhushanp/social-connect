@@ -30,7 +30,7 @@
 	                    </li>
 	                    <li>
 	                        <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Post Stack</span> <span class="fa arrow"></span></a>
-	                        <ul class="nav nav-second-level collapse in">
+	                        <ul class="nav nav-second-level collapse  main-sub-nav-menu">
 	                            <li class="active"><a href="techPostList.xconnect">Technical Post</a></li>
 	                            <li><a href="#">Bidding Challenge</a></li>
 	                        </ul>

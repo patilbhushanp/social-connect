@@ -112,7 +112,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="createPost.xconnect">
 									<i class="fa fa-file"></i>
 							</a>
 						</li>
@@ -120,6 +120,30 @@
 							<a href="login.html">
 								<i class="fa fa-sign-out"></i> Log out
 							</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="fa fa-comments"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-messages" style="width: 175px;text-align: -webkit-right;">
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Bhushan Patil');">Bhushan Patil <i class="fa fa-circle online-user"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Vishal Patil');">Vishal Patil <i class="fa fa-circle"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Mohan Biradar');">Mohan Biradar <i class="fa fa-circle online-user"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Karitkey Kandpal');">Karitkey Kandpal <i class="fa fa-circle online-user"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Aniruddh Tomar');">Aniruddh Tomar <i class="fa fa-circle"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Nilesh Kapale');">Nilesh Kapale <i class="fa fa-circle online-user"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Ashish Joshi');">Ashish Joshi <i class="fa fa-circle"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Vinay Savant');">Vinay Savant <i class="fa fa-circle online-user"></i></a></div></li>
+								<li class="divider"></li>
+								<li><div class="media-body "><a href="#" onclick="showChatWindow('Abhishek Singh');">Abhishek Singh <i class="fa fa-circle online-user"></i></a></div></li>
+							</ul>
 						</li>
 					</ul>
 				</div>
