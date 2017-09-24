@@ -634,3 +634,8 @@ tr.shown td.details-control {
     text-align: right;
     clear: both;
 }	
+
+.chat-mini-icon {
+    border-radius: 50%;
+}
+}

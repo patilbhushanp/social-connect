@@ -125,24 +125,80 @@
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 								<i class="fa fa-comments"></i>
 							</a>
-							<ul class="dropdown-menu dropdown-messages" style="width: 175px;text-align: -webkit-right;">
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Bhushan Patil');">Bhushan Patil <i class="fa fa-circle online-user"></i></a></div></li>
+							<ul class="dropdown-menu dropdown-messages" style="width: 200px;text-align: -webkit-right;">
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Bhushan Patil');">
+											<img alt="image" class="chat-mini-icon" src="img/my-chat-snap.jpg">
+											&nbsp;&nbsp; Bhushan Patil <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
+								</li>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Vishal Patil');">Vishal Patil <i class="fa fa-circle"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Vishal Patil');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Vishal Patil <i class="fa fa-circle"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Mohan Biradar');">Mohan Biradar <i class="fa fa-circle online-user"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Mohan Biradar');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Mohan Biradar <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Karitkey Kandpal');">Karitkey Kandpal <i class="fa fa-circle online-user"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Karitkey Kandpal');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Karitkey Kandpal <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Aniruddh Tomar');">Aniruddh Tomar <i class="fa fa-circle"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Aniruddh Tomar');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Aniruddh Tomar <i class="fa fa-circle"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Nilesh Kapale');">Nilesh Kapale <i class="fa fa-circle online-user"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Nilesh Kapale');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Nilesh Kapale <i class="fa fa-circle"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Ashish Joshi');">Ashish Joshi <i class="fa fa-circle"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Ashish Joshi');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Ashish Joshi <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Vinay Savant');">Vinay Savant <i class="fa fa-circle online-user"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Vinay Savant');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Vinay Savant <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
 								<li class="divider"></li>
-								<li><div class="media-body "><a href="#" onclick="showChatWindow('Abhishek Singh');">Abhishek Singh <i class="fa fa-circle online-user"></i></a></div></li>
+								<li>
+									<div class="media-body ">
+										<a href="#" onclick="showChatWindow('Abhishek Singh');">
+											<img alt="image" class="chat-mini-icon" src="img/min-unkown.png">
+											&nbsp;&nbsp; Abhishek Singh <i class="fa fa-circle online-user"></i>
+										</a>
+									</div>
+								</li>
 							</ul>
 						</li>
 					</ul>
