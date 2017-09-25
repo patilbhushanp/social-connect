@@ -1,8 +1,8 @@
 				<div id="chatRoom" class="small-chat-box fadeInRight animated">
 					<div class="heading" draggable="true">
-						<small class="chat-date pull-right">
-							09.25.2017
-						</small>
+						<div class="pull-right">
+							&nbsp;&nbsp;<a href="#" onclick="closeChatWindow()"><i class="fa fa-times" style="color:white"></i></a>
+						</div>
 						XConnect Chat
 					</div>
 					<div>

@@ -70,8 +70,12 @@ function format ( data ) {
 				'<div class="col-lg-6 pull-right personal-info" >'+
 				    '<table cellpadding="5" cellspacing="0" border="0" style="width: 60%;padding-left:50px;height:130px;">'+
 				        '<tr>'+
-					        '<td></td>'+    
-					        '<td class="pull-right"><img style="height:130px;" src="img/unknown-person.png" title="employee snap" alt="employee snap" /></td>' +
+					        '<td>'+
+					        '<img style="height:130px;" src="img/unknown-person.png" title="employee snap" alt="employee snap" />'+
+					        '</td>'+    
+					        '<td>'+
+							'<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="userDetail.xconnect">View Profile</a>'+					        
+					        '</td>' +
 				        '</tr>'+
 				    '</table>'+
 				'</div>' +

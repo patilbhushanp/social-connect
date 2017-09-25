@@ -16,3 +16,7 @@ function showChatWindow(userName){
 	$('#chatRoom').html(htmlText);
 	$('#chatRoom').addClass('active');
 }
+
+function closeChatWindow(){
+	$('#chatRoom').removeClass('active');
+}

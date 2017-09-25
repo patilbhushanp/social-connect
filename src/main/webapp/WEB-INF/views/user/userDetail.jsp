@@ -48,7 +48,7 @@
 				<div class="row top-menu-div">
 					<div class="col-lg-12">
 						<div class="col-lg-12 breadcrumbDiv">
-		                    <h2>My Profile</h2>
+		                    <h2>User Profile</h2>
 		                    <ol class="breadcrumb">
 		                        <li>
 		                            <a href="index.html">Home</a>
@@ -69,14 +69,14 @@
 			                    	<div class="col-lg-6">
 										<div class="ibox float-e-margins">
 											<div class="ibox-title">
-												<h5>My Detail</h5>
+												<h5>User Detail</h5>
 											</div>
 											<div>
 												<div class="ibox-content no-padding border-left-right" style="height: auto;">
-													<img alt="image" class="img-responsive" src="img/my-profile-large.jpg">
+													<img alt="image" class="img-responsive" src="img/unknown-person.png">
 												</div>
 												<div class="ibox-content profile-content">
-													<h4><strong>Bhushan Patil</strong></h4>
+													<h4><strong>Mohan Biradar</strong></h4>
 													<p><i class="fa fa-map-marker"></i> Xpanxion International, SS Building, Pune Area</p>
 													<h5>
 														About me
@@ -86,6 +86,16 @@
 													</p>
 													<div class="row m-t-lg">
 														<img alt="image" src="img/my-profile-usage.jpg" />
+													</div>
+													<div class="user-button">
+														<div class="row">
+															<div class="col-md-6">
+																<button type="button" class="btn btn-primary btn-sm btn-block"><i class="fa fa-envelope"></i> Send Message</button>
+															</div>
+															<div class="col-md-6">
+																<button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-coffee"></i> Buy a coffee</button>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -208,6 +218,6 @@
 			</div>
 		</div>
 		<script src="js/view/common.js"></script>
-		<script src="js/view/user/myProfile.js"></script>
+		<script src="js/view/user/userDetail.js"></script>
 	</body>
 </html>

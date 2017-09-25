@@ -16,4 +16,9 @@ public class UserController {
 	public String getUserList(Model model) {
 		return "user/userList";
 	}
+	
+	@GetMapping("/userDetail.xconnect")
+	public String getUserDetail(Model model) {
+		return "user/userDetail";
+	}
 }

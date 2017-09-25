@@ -561,7 +561,7 @@ tr.shown td.details-control {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 175px;
+    right: 210px;
     background: #fff;
     border: 1px solid #e7eaec;
     width: 230px;
@@ -638,4 +638,15 @@ tr.shown td.details-control {
 .chat-mini-icon {
     border-radius: 50%;
 }
+
+
+.feed-element:first-child {
+    margin-top: 0;
+}
+
+.feed-element {
+    border-bottom: 1px solid #e7eaec;
+    overflow: hidden;
+    margin-top: 15px;
+    padding-bottom: 15px;
 }

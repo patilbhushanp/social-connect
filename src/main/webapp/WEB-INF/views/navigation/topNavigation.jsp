@@ -130,7 +130,7 @@
 									<div class="media-body ">
 										<a href="#" onclick="showChatWindow('Bhushan Patil');">
 											<img alt="image" class="chat-mini-icon" src="img/my-chat-snap.jpg">
-											&nbsp;&nbsp; Bhushan Patil <i class="fa fa-circle online-user"></i>
+											&nbsp;&nbsp; Mahesh Solanki <i class="fa fa-circle online-user"></i>
 										</a>
 									</div>
 								</li>
