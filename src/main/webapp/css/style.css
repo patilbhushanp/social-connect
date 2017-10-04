@@ -650,3 +650,7 @@ tr.shown td.details-control {
     margin-top: 15px;
     padding-bottom: 15px;
 }
+
+.cke_button__preview_label, .cke_button__design_label {
+	display: block !important;
+}

@@ -72,9 +72,8 @@ CKEDITOR.config.toolbarGroups = [
 	{ name: 'others', groups: [ 'others' ] },
 	{ name: 'about', groups: [ 'about' ] }
 ];
-CKEDITOR.config.removeButtons = 'NewPage,Print,Templates,PasteText,SelectAll,Scayt,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,RemoveFormat,CopyFormatting,Blockquote,CreateDiv,Language,Anchor,Flash,Smiley,SpecialChar,PageBreak,Iframe,About';
-//CKEDITOR.config.extraPlugins = 'imagepaste';
-CKEDITOR.config.extraPlugins = 'uploadimage';
+CKEDITOR.config.removeButtons = 'Save,NewPage,Print,Templates,PasteText,SelectAll,Scayt,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,RemoveFormat,CopyFormatting,Blockquote,CreateDiv,Language,Anchor,Flash,Smiley,SpecialChar,PageBreak,Iframe,About';
+CKEDITOR.config.extraPlugins = 'uploadimage,design';
 
 CKEDITOR.config.uploadUrl = '/social-connect/uploadImage.xconnect?command=QuickUpload&type=Images&responseType=json';
 CKEDITOR.config.filebrowserImageBrowseUrl = '/social-connect/browserImage.xconnect';
@@ -86,6 +85,7 @@ CKEDITOR.editorConfig = function( config ) {
 	config.height = 300;
 	config.toolbarCanCollapse = true;
 };
+
 var initRichTextEditor = ( function() {
 	var wysiwygareaAvailable = isWysiwygareaAvailable(), isBBCodeBuiltIn = !!CKEDITOR.plugins.get( 'bbcode' );
 	return function() {
@@ -105,9 +105,28 @@ var initRichTextEditor = ( function() {
 			return true;
 		}
 		return !!CKEDITOR.plugins.get( 'wysiwygarea' );
-	};
+	};	
 } )();
+
 initRichTextEditor();
+
+CKEDITOR.instances.editor.ui.addButton( 'design', {
+    label: 'Design',
+    command: 'showDesign',
+    toolbar: 'mode,0'
+});
+
+CKEDITOR.instances.editor.addCommand('showDesign', {
+    exec: function( editor ) {
+        alert( 'Executing a command for the editor name "' + editor.name + '"!' );
+    }
+} );
+
+CKEDITOR.instances.editor.addCommand('source', {
+    exec: function( editor ) {
+        alert( 'Executing a command for the editor name "' + editor.name + '"!' );
+    }
+} );
 
 $( document ).ready(function() {
 	setTimeout(changeBackgroundColorOfEditorToolbar, 200);
