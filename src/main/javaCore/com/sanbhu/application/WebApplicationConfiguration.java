@@ -1,4 +1,4 @@
-package com.sanbhu.connect;
+package com.sanbhu.application;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,8 +14,8 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.sanbhu.connect")
-public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
+@ComponentScan(basePackages = "com.sanbhu")
+public class WebApplicationConfiguration extends WebMvcConfigurerAdapter {
 	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
