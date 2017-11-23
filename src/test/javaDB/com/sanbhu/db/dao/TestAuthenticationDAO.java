@@ -2,13 +2,24 @@ package com.sanbhu.db.dao;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
 
+import com.sanbhu.application.WebApplicationConfiguration;
 import com.sanbhu.common.bo.User;
 
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {WebApplicationConfiguration.class })
+@WebAppConfiguration
 public class TestAuthenticationDAO {
-	
-	AuthenticationDAO authenticationDAO = new AuthenticationDAO();
-	
+
+	@Autowired
+	AuthenticationDAO authenticationDAO;
+
 	@Test
 	public void performLoginTest() {
 		User user = new User();

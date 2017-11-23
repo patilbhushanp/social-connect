@@ -7,6 +7,7 @@ import java.sql.SQLException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import com.sanbhu.common.bo.User;
 import com.sanbhu.db.ApplicationConnectionManager;
@@ -18,6 +19,7 @@ import com.sanbhu.db.ApplicationConnectionManager;
  * @author WellWisher
  *
  */
+@Component
 public class AuthenticationDAO {
 
 	/**

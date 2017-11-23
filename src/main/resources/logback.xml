@@ -7,10 +7,13 @@
 		</Pattern>
 	    </layout>
 	</appender>
-	<logger name="org.springframework" level="debug" additivity="false">
+	<logger name="org.springframework" level="debug" additivity="true">
 		<appender-ref ref="STDOUT" />
 	</logger>
-	<logger name="com.mkyong.helloworld" level="debug" additivity="false">
+	<logger name="com.sanbhu.web.controller" level="debug" additivity="true">
+		<appender-ref ref="STDOUT" />
+	</logger>
+	<logger name="com.sabhu.db.dao" level="debug" additivity="true">
 		<appender-ref ref="STDOUT" />
 	</logger>
 	<root level="error">
