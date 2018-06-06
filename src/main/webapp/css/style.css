@@ -654,3 +654,17 @@ tr.shown td.details-control {
 .cke_button__preview_label, .cke_button__design_label {
 	display: block !important;
 }
+
+.loginBackground {
+    background-image: url("../img/loginBanner.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginContentLayout {
+	padding-right: 180px;
+	padding-top: 40px;
+	float: right;
+}

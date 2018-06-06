@@ -20,8 +20,28 @@
 	  	<script	type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
 	</head>
 	<body>
-		<div class="row">
-			<img src="image/loginBanner.jpg" />
+		<div class="row loginBackground">
+			<div class="loginContentLayout">
+	            <div>
+	                <h1 class="logo-name">SC+</h1>
+	            </div>
+	            <h3>Welcome to X-Connect</h3>
+	            <p>Gateway for social connect...</p>
+	            <p>Login in. To see it in action.</p>
+	            <form class="m-t" role="form" action="login.xconnect">
+	                <div class="form-group">
+	                    <input type="email" name="username" id="username" class="form-control" placeholder="Username" required="" />
+	                </div>
+	                <div class="form-group">
+	                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="" />
+	                </div>
+	                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+	
+	                <a href="#"><small>Forgot password?</small></a>
+	                <p class="text-muted text-center"><small>Do not have an account?</small></p>
+	                <a class="btn btn-sm btn-white btn-block" href="register.html">Create an account</a>
+	            </form>
+	        </div>
 		</div>
 	</body>
 </html>
