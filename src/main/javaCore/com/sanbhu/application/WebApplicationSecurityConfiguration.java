@@ -21,10 +21,12 @@ public class WebApplicationSecurityConfiguration extends WebSecurityConfigurerAd
 	
 	@Override
 	protected void configure(HttpSecurity httpSecurity) throws Exception {
-		httpSecurity.authorizeRequests().antMatchers("/", "*.xconnect").access("hasRole('ROLE_USER')").and().formLogin()
-				.loginPage("/login.xconnect").defaultSuccessUrl("/").failureUrl("/login.xconnect?error=LOGIN_ERROR")
-				.usernameParameter("username").passwordParameter("password").and().logout()
-				.logoutSuccessUrl("/logout.xconnect");
+		httpSecurity.csrf().disable().authorizeRequests()
+		.antMatchers("/", "*.xconnect").access("hasRole('ROLE_USER')")
+		.antMatchers("/api/*.xconnect").access("hasRole('ROLE_USER')").and()
+		.formLogin().loginPage("/login").defaultSuccessUrl("/").failureUrl("/login?error=LOGIN_ERROR")
+		.usernameParameter("username").passwordParameter("password").and().logout()
+		.logoutSuccessUrl("/logout.xconnect");
 
 	}
 }

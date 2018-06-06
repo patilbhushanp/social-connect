@@ -18,6 +18,18 @@
 		<script src="js/slimscroll/jquery.slimscroll.min.js"></script>
 	  
 	  	<script	type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+	  	<style>
+	  	.form-control {
+		    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+		    font-size: 12px;
+		    height: 30px !important;
+		    margin: 0;
+		    z-index: 2000;
+		    margin-bottom: 0;
+		    padding-top: 7px !important;
+		    border: blue !important;
+		}
+	  	</style>
 	</head>
 	<body>
 		<div class="row loginBackground">
@@ -28,7 +40,7 @@
 	            <h3>Welcome to X-Connect</h3>
 	            <p>Gateway for social connect...</p>
 	            <p>Login in. To see it in action.</p>
-	            <form class="m-t" role="form" action="login.xconnect">
+	            <form class="m-t" role="form" method="post" autocomplete="off" action="login">
 	                <div class="form-group">
 	                    <input type="email" name="username" id="username" class="form-control" placeholder="Username" required="" />
 	                </div>
