@@ -7,6 +7,8 @@ import javax.servlet.ServletRegistration;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
+import com.sanbhu.application.config.WebApplicationConfiguration;
+
 public class WebApplicationInitializer implements org.springframework.web.WebApplicationInitializer {
 
 	public void onStartup(ServletContext container) throws ServletException {

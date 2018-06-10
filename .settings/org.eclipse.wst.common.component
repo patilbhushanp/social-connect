@@ -3,7 +3,13 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaWeb"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaCore"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaAPI"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaException"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaDB"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/javaServices"/>
         <property name="java-output-path" value="/social-connect/target/classes"/>
         <property name="context-root" value="social-connect"/>
     </wb-module>
