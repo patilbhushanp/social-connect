@@ -14,6 +14,9 @@ CREATE TABLE `user` (
   UNIQUE KEY `userId_UNIQUE` (`userId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='User Table';
 
+ALTER TABLE `social_connect`.`user` 
+ADD COLUMN `enabled` VARCHAR(1) NOT NULL DEFAULT '1' AFTER `lastModifiedDate`;
+
 
 CREATE TABLE `userinfo` (
   `uid` int(11) NOT NULL AUTO_INCREMENT,
@@ -28,6 +31,14 @@ CREATE TABLE `userinfo` (
   KEY `userId_idx` (`userId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
+CREATE TABLE `userrole` (
+  `uid` int(11) NOT NULL AUTO_INCREMENT,
+  `userId` int(11) NOT NULL,
+  `role` varchar(45) NOT NULL,
+  `createdDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`uid`),
+  constraint FK_USERROLE foreign key(`userId`) references user(`uid`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='User Role Table';
 
 CREATE TABLE `userloginattempt` (
   `uid` int(11) NOT NULL AUTO_INCREMENT,
@@ -41,5 +52,6 @@ CREATE TABLE `userloginattempt` (
   KEY `userId_idx` (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO user (`userId`, `firstName`, `lastName`, `password`) VALUES ('bhushanp', 'Bhushan P', 'Patil', MD5('admin@1'));
+INSERT INTO user (`userId`, `firstName`, `lastName`, `password`) VALUES ('bhushanp@gmail.com', 'Bhushan P', 'Patil', MD5('admin@12345'));
 INSERT INTO userinfo (`userId`, `addressLine1`, `addressLine2`, `mobileNumber`, `phoneNumber`, `emailId`, `userPhoto`) VALUES ('bhushanp', 'Dange Chowk','Thergaon','919890309939','020239345','patilbhushanb@gmil.com','');
+INSERT INTO userrole(`userid`, `role`, `createdDate`) VALUES (2,'ROLE_ADMIN', now());

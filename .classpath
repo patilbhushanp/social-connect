@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="src/main/javaException"/>
 	<classpathentry kind="src" path="src/main/javaDB"/>
 	<classpathentry kind="src" path="src/main/javaServices"/>
+	<classpathentry kind="src" path="src/main/javaUtility"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
