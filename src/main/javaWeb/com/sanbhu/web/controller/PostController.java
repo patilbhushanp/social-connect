@@ -7,17 +7,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PostController {
 
-	@GetMapping("/createPost.xconnect")
+	@GetMapping("/post/createPost.xconnect")
 	public String createPost(Model model) {
 		return "createPost/createPost";
 	}
 
-	@GetMapping("/techPostDetail.xconnect")
+	@GetMapping("/post/techPostDetail.xconnect")
 	public String getTechnicalPostDetail() {
 		return "postStack/techPost/techPostDetail";
 	}
 	
-	@GetMapping("/techPostList.xconnect")
+	@GetMapping("/post/techPostList.xconnect")
 	public String getTechnicalPost() {
 		return "postStack/techPost/techPostList";
 	}

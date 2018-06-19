@@ -34,6 +34,7 @@ CREATE TABLE `userinfo` (
 CREATE TABLE `userrole` (
   `uid` int(11) NOT NULL AUTO_INCREMENT,
   `userId` int(11) NOT NULL,
+  `roleDisplayPriority` int(11) NOT NULL DEFAULT 100,
   `role` varchar(45) NOT NULL,
   `createdDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`uid`),
@@ -52,6 +53,9 @@ CREATE TABLE `userloginattempt` (
   KEY `userId_idx` (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO user (`userId`, `firstName`, `lastName`, `password`) VALUES ('bhushanp@gmail.com', 'Bhushan P', 'Patil', MD5('admin@12345'));
-INSERT INTO userinfo (`userId`, `addressLine1`, `addressLine2`, `mobileNumber`, `phoneNumber`, `emailId`, `userPhoto`) VALUES ('bhushanp', 'Dange Chowk','Thergaon','919890309939','020239345','patilbhushanb@gmil.com','');
-INSERT INTO userrole(`userid`, `role`, `createdDate`) VALUES (2,'ROLE_ADMIN', now());
+INSERT INTO `social_connect`.`user` (`userId`, `firstName`, `lastName`, `password`) VALUES ('bhushanp@gmail.com', 'Bhushan P', 'Patil', '$2a$10$7AxWrQ6Wr9jhUIHlLOmvOO5dCuiZzMpPFQACOtrDXEQFpmj.X9e4u');
+INSERT INTO `social_connect`.`userinfo` (`userId`, `addressLine1`, `addressLine2`, `mobileNumber`, `phoneNumber`, `emailId`, `userPhoto`) VALUES ('bhushanp', 'Dange Chowk','Thergaon','919890309939','020239345','patilbhushanb@gmil.com','');
+INSERT INTO `social_connect`.`userrole` (`userid`, `roleDisplayPriority`, `role`, `createdDate`) VALUES ('2', 4, 'ROLE_ADMIN', now());
+INSERT INTO `social_connect`.`userrole` (`userId`, `roleDisplayPriority`, `role`, `createdDate`) VALUES ('2', 1, 'ROLE_POST', now());
+INSERT INTO `social_connect`.`userrole` (`userId`, `roleDisplayPriority`, `role`, `createdDate`) VALUES ('2', 2, 'ROLE_ADVERTISEMENT', now());
+INSERT INTO `social_connect`.`userrole` (`userId`, `roleDisplayPriority`, `role`, `createdDate`) VALUES ('2', 3, 'ROLE_ORGANIZATION', now());

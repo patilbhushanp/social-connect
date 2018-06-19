@@ -378,7 +378,7 @@
 				<jsp:include page="../../footer/footer.jsp"></jsp:include>
 			</div>
 		</div>
-		<script src="js/view/common.js"></script>
-		<script src="js/view/postStack/techPost/techPostList.js"></script>
+		<script src="../js/view/common.js"></script>
+		<script src="../js/view/postStack/techPost/techPostList.js"></script>
 	</body>
 </html>

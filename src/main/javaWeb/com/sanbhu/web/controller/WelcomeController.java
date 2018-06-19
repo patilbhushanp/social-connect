@@ -28,6 +28,6 @@ public class WelcomeController {
 				ApplicationForceStop.forceStopApplication();
 			}
 		}
-		return "welcome/welcome";
+		return "redirect:post/createPost.xconnect";
 	}
 }
