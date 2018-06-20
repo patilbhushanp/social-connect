@@ -45,6 +45,7 @@ public class WebApplicationSecurityConfiguration extends WebSecurityConfigurerAd
 		.antMatchers("/go-green/*.xconnect").access("hasRole('ROLE_GOGREEN')")
 		.anyRequest().permitAll().and().formLogin().loginPage("/login")
 		.defaultSuccessUrl("/").failureUrl("/login?error=LOGIN_ERROR").usernameParameter("username")
-		.passwordParameter("password").and().logout().logoutSuccessUrl("/logout.xconnect");
+		.passwordParameter("password").and().logout().logoutSuccessUrl("/logout.xconnect").and()
+		.exceptionHandling().accessDeniedPage("/accessDenied");
 	}
 }

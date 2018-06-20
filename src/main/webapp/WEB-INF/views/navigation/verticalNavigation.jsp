@@ -73,13 +73,13 @@ org.springframework.security.core.authority.SimpleGrantedAuthority" %>
 				                    <li>
 				                        <a href="#"><i class="fa fa-chrome"></i> <span class="nav-label">Social Responsibility</span> <span class="fa arrow"></span></a>
 				                        <ul class="nav nav-second-level collapse main-sub-nav-menu">
-				                            <li><a href="userList.xconnect">Team Directory</a></li>
+				                            <li><a href="../user/userList.xconnect">Team Directory</a></li>
 				                            <li><a href="#">Donation Activity</a></li>
 				                        </ul>
 				                    </li>	                    
 	                    <%		} else if ("ROLE_GOGREEN".equalsIgnoreCase(role)) { %>
 				                    <li>
-				                        <a href="goGreenConcept.xconnect"><i class="fa fa-globe"></i> <span class="nav-label">Go Green</span></a>
+				                        <a href="../go-green/goGreenConcept.xconnect"><i class="fa fa-globe"></i> <span class="nav-label">Go Green</span></a>
 				                    </li>
 	                    <%		}
 	                    	}

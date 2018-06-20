@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class GoGreenController {
 
-	@GetMapping("/goGreenConcept.xconnect")
+	@GetMapping("/go-green/goGreenConcept.xconnect")
 	public String createPost(Model model) {
 		return "gogreen/goGreenConcept";
 	}
